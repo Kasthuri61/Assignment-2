@@ -1,0 +1,224 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+    width: 100%; 
+    background-image:url(../images/background.png);
+    background-size: cover;
+  background-position: center;
+    color: #333;
+    padding: 20px;
+}
+
+
+header {
+    background: #aa2869;
+    color: #382874;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a:hover
+{
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+header nav ul li a {
+    color: #070708;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#about {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about img {
+    border-radius: 90%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Experience Section */
+#experience {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#experience h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.experience-item p {
+  
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    
+}
+
+/* Education Section */
+#education {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#education h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#education ul {
+    list-style-type: none;
+}
+
+#education ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+/* projects section */
+#project{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#project h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.project-list p{
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    /* Contact Section */
+    #container {
+        max-width: 400px;
+        margin: 50px auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        background-position: ceenter;
+        background-size: cover;
+        
+    }
+    #contact h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+    
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .button-group {
+        display: flex;
+        gap: 10px; 
+    }
+    .button-group button {
+        flex: 1; 
+    }
+    button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 100%; 
+        margin-top: 10px;
+    }
+    
+    button:hover {
+        background-color: #218838;
+    }
+/* thank you section */
+    #thank-you {
+        max-width: 400px;
+        margin: 100px auto;
+        padding: 20px;
+        text-align: center;
+        background: #fff;
+        border-radius: 8px;
+        
+    }
+    .back-button {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    
+    .back-button:hover {
+        background-color: #0056b3;
+    }
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1rem;
+    background: #aa2869;
+    color: #382874;
+}
+
+
+
+
